@@ -1,0 +1,84 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/userInfo/common",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/functionMenu/common",
+			"style": {
+				"navigationBarTitleText": "API示例"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "subPages",
+			"pages": [
+				{
+					"path": "pages/login/login",
+					"style": {
+						"navigationBarTitleText": "登录"
+					}
+				},
+				{
+					"path": "pages/login/privacy",
+					"style": {
+						"navigationBarTitleText": "隐私政策"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#444444",
+		"selectedColor": "#FF80AB",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/icon/tab/icon_home.png",
+				"selectedIconPath": "static/icon/tab/icon_home_c.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/functionMenu/common",
+				"iconPath": "static/icon/tab/icon_xiaoxi.png",
+				"selectedIconPath": "static/icon/tab/icon_xiaoxi_c.png",
+				"text": "工作"
+			},
+			{
+				"pagePath": "pages/userInfo/common",
+				"iconPath": "static/icon/tab/icon_wode.png",
+				"selectedIconPath": "static/icon/tab/icon_wode_c.png",
+				"text": "个人信息"
+			}
+		]
+	},
+	"condition": {
+		"current": 0,
+		"list": [
+			{
+				"name": "",
+				"path": "",
+				"query": ""
+			}
+		]
+	}
+}
